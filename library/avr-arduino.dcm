@@ -27,7 +27,7 @@ $ENDCMP
 $CMP FTDI_Header
 D 6-pin header for USB-to-serial adapter (aka "FTDI header")
 K serial FTDI header
-F https://www.adafruit.com/product/3309
+F https://www.sparkfun.com/products/9716
 $ENDCMP
 #
 $CMP ISP10
