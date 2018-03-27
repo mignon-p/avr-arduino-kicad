@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AVR_14DIP_Arduino
+D 14-pin AVR (e. g. ATtiny84) with Arduino pinout
+K Atmel AVR microcontroller Arduino
+F http://highlowtech.org/?p=1695
+$ENDCMP
+#
+$CMP AVR_28DIP_Arduino
+D 28-pin AVR (e. g. ATmega328) with Arduino pinout
+K Atmel AVR microcontroller Arduino
+F https://www.arduino.cc/en/Hacking/PinMapping168
+$ENDCMP
+#
+$CMP AVR_40DIP_Arduino
+D 40-pin AVR (e. g. ATmega1284) with 'Standard' Arduino pinout
+K Atmel AVR microcontroller Arduino
+F https://github.com/mcudude/MightyCore
+$ENDCMP
+#
+$CMP AVR_8DIP_Arduino
+D 8-pin AVR (e. g. ATtiny85) with Arduino pinout
+K Atmel AVR microcontroller Arduino
+F http://highlowtech.org/?p=1695
+$ENDCMP
+#
+$CMP FTDI_Header
+D 6-pin header for USB-to-serial adapter (aka "FTDI header")
+K serial FTDI header
+F https://www.adafruit.com/product/3309
+$ENDCMP
+#
+$CMP ISP10
+D 10-pin AVR ISP header
+K ISP AVR programming header
+F http://www.batsocks.co.uk/readme/isp_headers.htm
+$ENDCMP
+#
+$CMP ISP6
+D 6-pin AVR ISP header
+K ISP AVR programming header
+F http://www.batsocks.co.uk/readme/isp_headers.htm
+$ENDCMP
+#
+#End Doc Library
