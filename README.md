@@ -18,7 +18,7 @@ Also in the `library` directory is a KiCad footprint library
 containing a footprint for the FTDI header, which is a standard 6-pin
 header with the pins labeled on the silkscreen.
 
-There is also a `template` directory containing four different
+There is also a `templates` directory containing four different
 templates, for the four different sizes of AVR (8 pin, 14 pin, 28 pin,
 and 40 pin).  The template contains a schematic with a minimal circuit
 for the AVR.  For all AVRs, this includes a 6-pin ISP header.  For the
