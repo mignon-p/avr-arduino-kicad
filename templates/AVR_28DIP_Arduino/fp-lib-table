@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name avr-arduino)(type KiCad)(uri ${KIPRJMOD}/avr-arduino.pretty)(options "")(descr "Atmel AVR microcontrollers with Arduino pinout"))
+)
