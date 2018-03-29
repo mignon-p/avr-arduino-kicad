@@ -26,6 +26,10 @@ for the AVR.  For all AVRs, this includes a 6-pin ISP header.  For the
 crystal.  (For 8 pin and 14 pin AVRs, it is assumed you'll use the
 internal oscillator, and will not be using a bootloader.)
 
+If you want to use a template, you should download one of the zip
+files below.  (The git repository contains symlinks, but the zip files
+have flattened the symlinks so that the template is self-contained.)
+
 ## Downloads
 
 * [Just the library][11]
