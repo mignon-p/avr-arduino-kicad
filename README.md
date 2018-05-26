@@ -49,6 +49,17 @@ The `FTDI_Header` footprint is based on the
 `Pin_Header_Straight_1x06_Pitch2.54mm` footprint from the KiCad
 library.
 
+## Change Log
+
+### 1.1
+
+* Made `AREF` pin Passive.
+* Put a 0.1μF capacitor between `AREF` and `GND`.  (See [this thread][16].)
+
+### 1.0
+
+* Initial release.
+
 [1]: http://kicad-pcb.org/
 [2]: https://en.wikipedia.org/wiki/Atmel_AVR
 [3]: https://www.arduino.cc/
@@ -59,8 +70,9 @@ library.
 [8]: https://www.sparkfun.com/products/9716
 [9]: https://forum.kicad.info/t/kicad-library-licensing/7856
 [10]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
-[11]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.0/avr-arduino-kicad-1.0-library.zip
-[12]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.0/avr-arduino-kicad-1.0-8DIP.zip
-[13]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.0/avr-arduino-kicad-1.0-14DIP.zip
-[14]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.0/avr-arduino-kicad-1.0-28DIP.zip
-[15]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.0/avr-arduino-kicad-1.0-40DIP.zip
+[11]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.1/avr-arduino-kicad-1.1-library.zip
+[12]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.1/avr-arduino-kicad-1.1-8DIP.zip
+[13]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.1/avr-arduino-kicad-1.1-14DIP.zip
+[14]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.1/avr-arduino-kicad-1.1-28DIP.zip
+[15]: https://github.com/ppelleti/avr-arduino-kicad/releases/download/1.1/avr-arduino-kicad-1.1-40DIP.zip
+[16]: https://forum.kicad.info/t/barebones-atmega328-circuit-and-the-conflict-between-pins-warning/10886
