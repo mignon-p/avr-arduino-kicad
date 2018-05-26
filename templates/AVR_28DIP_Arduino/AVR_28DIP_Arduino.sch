@@ -178,17 +178,11 @@ $EndComp
 Text Label 1400 7500 0    50   ~ 0
 ~RESET
 Wire Wire Line
-	1050 6800 1100 6800
-Wire Wire Line
-	1100 6800 1450 6800
-Wire Wire Line
-	1450 6800 1900 6800
+	1050 6800 1900 6800
 Wire Wire Line
 	1100 6800 1100 6750
 Wire Wire Line
-	1050 7300 1100 7300
-Wire Wire Line
-	1100 7300 1900 7300
+	1900 7300 1050 7300
 Wire Wire Line
 	1100 7300 1100 7350
 Wire Wire Line
@@ -202,18 +196,14 @@ Wire Wire Line
 Wire Wire Line
 	2000 6950 2150 6950
 Wire Wire Line
-	1050 7200 1450 7200
-Wire Wire Line
-	1450 7200 1700 7200
+	1050 7200 1700 7200
 Wire Wire Line
 	1450 7200 1450 7150
 Wire Wire Line
 	1450 6800 1450 6850
 Connection ~ 1100 6800
 Wire Wire Line
-	1700 7150 1700 7200
-Wire Wire Line
-	1700 7200 1700 7500
+	1700 7150 1700 7500
 Connection ~ 1450 7200
 Wire Wire Line
 	1700 6850 1700 6750
@@ -227,9 +217,7 @@ Connection ~ 1450 6800
 Wire Wire Line
 	2150 7150 1900 7150
 Wire Wire Line
-	1900 7150 1900 7250
-Wire Wire Line
-	1900 7250 1900 7300
+	1900 7150 1900 7300
 Connection ~ 1100 7300
 Wire Wire Line
 	2150 7250 1900 7250
@@ -240,26 +228,20 @@ Connection ~ 1700 7200
 Wire Wire Line
 	2800 7450 2800 7500
 Wire Wire Line
-	2800 7500 3000 7500
-Wire Wire Line
-	3000 7500 3200 7500
+	2800 7500 3200 7500
 Wire Wire Line
 	3200 7500 3200 7450
 Wire Wire Line
 	3000 7550 3000 7500
 Connection ~ 3000 7500
 Wire Wire Line
-	2800 6650 2800 6900
-Wire Wire Line
-	2800 6900 2800 7150
+	2800 6650 2800 7150
 Wire Wire Line
 	2800 6900 2850 6900
 Wire Wire Line
 	3150 6900 3200 6900
 Wire Wire Line
-	3200 6650 3200 6900
-Wire Wire Line
-	3200 6900 3200 7150
+	3200 6650 3200 7150
 Text Label 2800 6650 3    50   ~ 0
 XTAL1
 Text Label 3200 6650 3    50   ~ 0
@@ -325,29 +307,21 @@ F 3 "" H 5400 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 2700 5400 2600
-Wire Wire Line
-	5400 2600 5400 2500
+	5400 2500 5400 2700
 Wire Wire Line
 	5300 2700 5300 2600
 Wire Wire Line
 	5300 2600 5400 2600
 Connection ~ 5400 2600
 Wire Wire Line
-	5400 4600 5400 4700
-Wire Wire Line
-	5400 4700 5400 4800
+	5400 4600 5400 4800
 Wire Wire Line
 	5300 4600 5300 4700
 Wire Wire Line
-	5300 4700 5400 4700
-Wire Wire Line
-	5400 4700 6600 4700
+	5300 4700 6600 4700
 Connection ~ 5400 4700
 Wire Wire Line
 	6500 4100 6600 4100
-Wire Wire Line
-	6600 4100 6600 4700
 Text Label 6800 3100 2    50   ~ 0
 MOSI
 Text Label 6800 3200 2    50   ~ 0
@@ -393,4 +367,19 @@ F 3 "" H 5400 3700 50  0001 C CNN
 	1    5400 3700
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C?
+U 1 1 5B0980A7
+P 6600 4400
+F 0 "C?" H 6625 4500 50  0000 L CNN
+F 1 "0.1μF" H 6625 4300 50  0000 L CNN
+F 2 "" H 6638 4250 50  0001 C CNN
+F 3 "" H 6600 4400 50  0001 C CNN
+	1    6600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4100 6600 4250
+Wire Wire Line
+	6600 4700 6600 4550
 $EndSCHEMATC

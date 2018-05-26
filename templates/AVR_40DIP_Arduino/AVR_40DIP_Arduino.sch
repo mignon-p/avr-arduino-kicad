@@ -333,8 +333,6 @@ Wire Wire Line
 Connection ~ 5400 5100
 Wire Wire Line
 	6500 4500 6600 4500
-Wire Wire Line
-	6600 4500 6600 5100
 Text Label 4000 3200 0    50   ~ 0
 MOSI
 Text Label 4000 3300 0    50   ~ 0
@@ -369,4 +367,19 @@ Wire Wire Line
 	4000 4700 4300 4700
 Wire Notes Line
 	2650 6550 2650 8000
+$Comp
+L C C?
+U 1 1 5B0988E7
+P 6600 4800
+F 0 "C?" H 6625 4900 50  0000 L CNN
+F 1 "0.1μF" H 6625 4700 50  0000 L CNN
+F 2 "" H 6638 4650 50  0001 C CNN
+F 3 "" H 6600 4800 50  0001 C CNN
+	1    6600 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4500 6600 4650
+Wire Wire Line
+	6600 5100 6600 4950
 $EndSCHEMATC
