@@ -60,7 +60,7 @@ library.
 
 * Initial release.
 
-[1]: http://kicad-pcb.org/
+[1]: http://kicad.org/
 [2]: https://en.wikipedia.org/wiki/Atmel_AVR
 [3]: https://www.arduino.cc/
 [4]: https://github.com/damellis/attiny
